@@ -53,6 +53,7 @@ p {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    padding: 15px; 
 }
 
 a {
@@ -61,6 +62,7 @@ a {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
+    padding: 10px; 
 }
 
 /* STYLE IMAGES */
