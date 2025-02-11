@@ -1,0 +1,114 @@
+/* STYLE SECTIONING TAGS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #FFFFF0; /* Missing '#' before color code */
+}
+
+/* STYLE TEXT */
+
+h1 {
+    color: #252323; /* Missing '#' before color code */
+    font-family: "Georgia", serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 2000; /* Use normal, bold, or numerical values (e.g., 100–900) */
+    padding: 20px;
+    letter-spacing: 0px;
+}
+
+main {
+    margin-top: 100px; /* Missing 'px' for margin values */
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: #252323;
+    font-family: "Georgia", monospace;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #252323;
+    font-family: "Georgia", monospace;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #252323;
+    font-family: "Georgia", monospace;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    color: #73877B;
+    font-family: "Georgia", monospace;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* STYLE IMAGES */
+img {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px;
+}
+
+.cool {
+    color: #70798C; /* Missing '#' before color code */
+}
+
+#cat {
+    border-radius: 10%;
+}
+
+#personalityQuiz {
+    max-width: 1000px;
+    max-height: 1500px;
+}
+
+#activistToolkit {
+    max-width: 1000px;
+    max-height: 1500px;
+}
+
+/* STYLE NAV BAR */
+ul {
+    list-style-type: none;
+    background-color: #DFD5C3;
+    overflow: hidden;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: "Georgia", monospace;
+    padding: 1em;
+    font-weight: normal;
+}
+
+li a:hover { /* Pseudo-class must not have a space between ':' and 'hover' */
+    background-color: #C2B6A1; /* Missing '-' in 'background-color' */
+}
