@@ -168,6 +168,15 @@ h1 {
     margin-top: 1rem;
 }
 
+/* Name Text Styling */
+.name-text {
+    font-size: 1.5rem;  
+    font-weight: 500;   
+    display: block;     
+    margin-top: 0.5rem; 
+    padding-bottom: 1rem;
+}
+
 /* Right side image */
 .about-right img {
     width: 100%;
@@ -217,12 +226,13 @@ h1 {
 }
 
 /* Work Grid (Holds Projects) */
+/* Work Grid (Ensures 2 projects per row) */
 .work-grid {
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 850px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid */
+    gap: 3rem; /* Adjust spacing between items */
+    max-width: 900px; /* Ensure it's not too wide */
+    margin: 0 auto; /* Centers the grid */
 }
 
 .project {
@@ -232,8 +242,9 @@ h1 {
 
 /* Project Image */
 .project img {
-    width: 100%;
-    height: auto;
+    width: 500px;  /* Adjust width to maintain aspect ratio */
+    height: 300px; /* Maintain 4:3 aspect ratio */
+    object-fit: cover; /* Ensures uniformity */
     border-radius: 8px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
@@ -261,12 +272,12 @@ h1 {
 
 /* Work Section Illustration (Cargos Image) */
 .work-illustration {
-    width: 160px;
+    width: 160px; 
     height: auto;
     flex-shrink: 0;
     position: relative;
-    margin-left: -4rem; 
-    margin-bottom: -3rem; 
+    margin-left: -6.5rem;
+    margin-bottom: -2rem; 
 }
 
 /* Contact Section */
