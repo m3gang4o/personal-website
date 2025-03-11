@@ -307,6 +307,25 @@ h1 {
     left: 4rem;
 }
 
+.resume-button {
+    display: inline-block;
+    background-color: black; /* Black button */
+    color: white !important; /* Ensure text is white */
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-top: 1rem; /* Ensures spacing below LinkedIn */
+    border: 2px solid black;
+    text-align: center;
+}
+
+.resume-button:hover {
+    background-color: white; /* Invert color on hover */
+    color: black !important;
+}
+
 /* Contact Page Links */
 #contact a {
     text-decoration: none;
