@@ -1,4 +1,4 @@
-# 🌐 Megan Gao - Personal Website
+# 🧸 Megan Gao - Personal Website
 
 Welcome to my personal website! This site showcases my portfolio, projects, and interests in front-end development, UI/UX design, and data analytics.
 
