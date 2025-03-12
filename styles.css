@@ -13,10 +13,16 @@ body {
 
 /* Navigation */
 .nav-header {
-    position: absolute;
-    top: 2rem;
-    right: 4rem;
-    z-index: 10;
+    position: fixed;  
+    top: 0;  
+    left: 0;
+    width: 100%;  
+    background: white; 
+    padding: 1rem 4rem; 
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-header ul {
@@ -53,19 +59,20 @@ body {
     height: 100vh;
     display: flex;
     justify-content: flex-end;
-    padding: 0 4rem;
+    padding: 8rem 4rem 0 4rem;  /* Added extra padding at the top */
 }
+
 
 .left-side {
     position: absolute;
     left: 0;
-    top: -10%;
-    width: 60%;
-    height: 120%;
+    top: 3rem;  /* Moves the image down */
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .head-illustration {
     width: 95%;
@@ -226,13 +233,12 @@ h1 {
 }
 
 /* Work Grid (Holds Projects) */
-/* Work Grid (Ensures 2 projects per row) */
 .work-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid */
-    gap: 3rem; /* Adjust spacing between items */
-    max-width: 900px; /* Ensure it's not too wide */
-    margin: 0 auto; /* Centers the grid */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 3rem; 
+    max-width: 900px;
+    margin: 0 auto; 
 }
 
 .project {
@@ -345,8 +351,8 @@ h1 {
 .contact-illustration {
     position: absolute;
     right: 4rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 45%; 
+    transform: translateY(-40%); 
     height: 90vh;
     width: auto;
 }
