@@ -248,9 +248,9 @@ h1 {
 
 /* Project Image */
 .project img {
-    width: 500px;  /* Adjust width to maintain aspect ratio */
-    height: 300px; /* Maintain 4:3 aspect ratio */
-    object-fit: cover; /* Ensures uniformity */
+    width: 500px;  
+    height: 300px; 
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
@@ -319,8 +319,8 @@ h1 {
 
 .resume-button {
     display: inline-block;
-    background-color: black; /* Black button */
-    color: white !important; /* Text is white */
+    background-color: black; 
+    color: white !important; 
     font-size: 1.2rem;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
